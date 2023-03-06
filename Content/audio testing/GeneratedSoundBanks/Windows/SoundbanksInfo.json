@@ -1,0 +1,93 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{848F6F88-C1DB-4568-8B14-AA6D3C1CB176}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{A615B63E-77FE-4A57-BCA1-8EA4C5D01582}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}",
+    "Language": "SFX",
+    "Hash": "{84F5BE1F-6245-E177-D710-552E21C67877}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "838655979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WEATHER_wind_med.wav",
+      "CachePath": "SFX/WEATHER_wind_med_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1439088316",
+      "Name": "Amb_wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Amb_wind",
+      "GUID": "{8C4EF21B-4652-4F08-A666-39DD0E9827D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "28.61825",
+      "DurationMax": "28.61825",
+      "MediaRefs": [
+       {
+        "Id": "838655979"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{24BCD317-B413-79DC-B995-2E69F7AF8142}"
+ }
+}

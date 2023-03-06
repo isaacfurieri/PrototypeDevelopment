@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}" Language="SFX" Hash="{84F5BE1F-6245-E177-D710-552E21C67877}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="838655979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WEATHER_wind_med.wav</ShortName>
+					<CachePath>SFX/WEATHER_wind_med_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1439088316" Name="Amb_wind" ObjectPath="\Events\Default Work Unit\Amb_wind" GUID="{8C4EF21B-4652-4F08-A666-39DD0E9827D0}" DurationType="OneShot" DurationMin="28.61825" DurationMax="28.61825">
+					<MediaRefs>
+						<MediaRef Id="838655979"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9379A292-3734-0050-F773-3A065E509B1C}</FileHash>
+</SoundBanksInfo>

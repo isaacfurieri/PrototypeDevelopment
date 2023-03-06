@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC92224A-4F8D-4139-80E6-0E7B0597E15A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{AC92224A-4F8D-4139-80E6-0E7B0597E15A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="WEATHER_wind_med" ID="{C3F067D7-1475-4198-B5DB-E2F4961AB547}" ShortID="713170574">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{477A3AA7-A7BC-40AC-BED0-E15CF978C54A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C20DFF85-FE04-4CD3-BA16-C36B4D8241F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WEATHER_wind_med" ID="{B07D3534-5DA2-4E71-B1AF-7CE00792BE0B}">
+							<Language>SFX</Language>
+							<AudioFile>WEATHER_wind_med.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="838655979"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WEATHER_wind_med" ID="{B07D3534-5DA2-4E71-B1AF-7CE00792BE0B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

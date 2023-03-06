@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="audio testing" GUID="{A1DBC2FE-C2DB-4BBB-ACAE-FCBFBDA1D646}" Generator="2022.1.2.8150"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{4A768F45-641F-4FE4-8335-B8C0B88475C1}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F798B539-8707-4AAF-916C-55FB48BD8114}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{D3185E8E-E17F-658A-CA72-A6F91136A029}</FileHash>
+</ProjectInfo>
