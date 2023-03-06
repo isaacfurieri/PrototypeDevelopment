@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Drums" ID="{8EB9A7F5-6477-495D-9A15-48110446883B}">
+					<ChildrenList>
+						<Action Name="" ID="{DA5DFAEF-03F4-41DC-AEE2-7725B2DF4B3F}" ShortID="1064489629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="60_Ice_Queen_2" ID="{F54132FF-070B-45FF-8300-9FE4C232E1F9}" WorkUnitID="{AC92224A-4F8D-4139-80E6-0E7B0597E15A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}" Language="SFX" Hash="{84F5BE1F-6245-E177-D710-552E21C67877}">
+		<SoundBank Id="3161908922" Type="User" GUID="{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}" Language="SFX" Hash="{0CA59003-92C1-3C00-F411-53B9D0085C60}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="538377403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>60_Ice_Queen_2.wav</ShortName>
+					<CachePath>SFX/60_Ice_Queen_2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="838655979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WEATHER_wind_med.wav</ShortName>
 					<CachePath>SFX/WEATHER_wind_med_10C4C929.wem</CachePath>
@@ -17,8 +21,13 @@
 						<MediaRef Id="838655979"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2726606664" Name="Drums" ObjectPath="\Events\Default Work Unit\Drums" GUID="{8EB9A7F5-6477-495D-9A15-48110446883B}" DurationType="OneShot" DurationMin="16" DurationMax="16">
+					<MediaRefs>
+						<MediaRef Id="538377403"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9379A292-3734-0050-F773-3A065E509B1C}</FileHash>
+	<FileHash>{CC14F172-69FB-06F1-E128-7D23E6C0CFC4}</FileHash>
 </SoundBanksInfo>

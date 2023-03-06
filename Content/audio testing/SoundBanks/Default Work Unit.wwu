@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Drums" ID="{8EB9A7F5-6477-495D-9A15-48110446883B}" WorkUnitID="{3EA0B825-E7E9-4690-B9DD-7EB00A136FE8}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_wind" ID="{8C4EF21B-4652-4F08-A666-39DD0E9827D0}" WorkUnitID="{3EA0B825-E7E9-4690-B9DD-7EB00A136FE8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

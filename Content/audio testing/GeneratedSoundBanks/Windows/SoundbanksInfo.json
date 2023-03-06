@@ -56,11 +56,19 @@
     "Type": "User",
     "GUID": "{A04D15BD-C83D-445A-8BDB-23055A3E4AA5}",
     "Language": "SFX",
-    "Hash": "{84F5BE1F-6245-E177-D710-552E21C67877}",
+    "Hash": "{0CA59003-92C1-3C00-F411-53B9D0085C60}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "538377403",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "60_Ice_Queen_2.wav",
+      "CachePath": "SFX/60_Ice_Queen_2_10C4C929.wem"
+     },
      {
       "Id": "838655979",
       "Language": "SFX",
@@ -84,10 +92,24 @@
         "Id": "838655979"
        }
       ]
+     },
+     {
+      "Id": "2726606664",
+      "Name": "Drums",
+      "ObjectPath": "\\Events\\Default Work Unit\\Drums",
+      "GUID": "{8EB9A7F5-6477-495D-9A15-48110446883B}",
+      "DurationType": "OneShot",
+      "DurationMin": "16",
+      "DurationMax": "16",
+      "MediaRefs": [
+       {
+        "Id": "538377403"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{24BCD317-B413-79DC-B995-2E69F7AF8142}"
+  "FileHash": "{B4029689-DBCB-4796-B779-E6F35C38F8EC}"
  }
 }
