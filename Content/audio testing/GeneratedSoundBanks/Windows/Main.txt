@@ -1,8 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1439088316	Amb_wind			\Default Work Unit\Amb_wind	
-	2726606664	Drums			\Default Work Unit\Drums	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	538377403	60_Ice_Queen_2	C:\Users\luzal\Documents\Unreal Projects\PrototypeDevelopment\Content\audio testing\.cache\Windows\SFX\60_Ice_Queen_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\60_Ice_Queen_2		2822496
-	838655979	WEATHER_wind_med	C:\Users\luzal\Documents\Unreal Projects\PrototypeDevelopment\Content\audio testing\.cache\Windows\SFX\WEATHER_wind_med_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WEATHER_wind_med		3663232
-
