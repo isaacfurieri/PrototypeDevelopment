@@ -19,6 +19,14 @@
 			"Name": "DialogueSx",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/401cd4398af24470a14e79637f383d4e"
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": false
 		}
 	]
 }
