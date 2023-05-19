@@ -28,5 +28,8 @@
 			"Name": "Wwise",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
